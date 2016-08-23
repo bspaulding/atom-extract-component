@@ -8,11 +8,11 @@ Refactoring task to extract a portion of JSX as a new component.
   currently looks only for MemberExpression names
   would be _better_ if `<ComponentA src={images.imageSrc}/>` became:
   ```javascript
-		  <Component src={images.imageSrc}/>
+	  <Component src={images.imageSrc}/>
 
-			const Component = ({ src }) => (
-  			<ComponentA src={src}/>
-		  )
+	  const Component = ({ src }) => (
+ 			<ComponentA src={src}/>
+	  )
   ```
   although this would introduce complexity and probably new edge cases
 - restore focus to active editor on modal close
