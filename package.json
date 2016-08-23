@@ -1,0 +1,19 @@
+{
+  "name": "extract-component",
+  "main": "./lib/extract-component",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "extract-component:extract"
+  },
+  "repository": "https://github.com/atom/extract-component",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "babel-core": "6.13.2",
+    "babylon": "6.9.0"
+  }
+}

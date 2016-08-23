@@ -1,0 +1,21 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Extract Component",
+        "command": "extract-component:extract"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Extract Component",
+          "command": "extract-component:extract"
+        }
+      ]
+    }
+  ]
+}
