@@ -1,8 +1,8 @@
 {
   "name": "extract-component",
   "main": "./lib/extract-component",
-  "version": "1.0.0",
-  "description": "A short description of your package",
+  "version": "1.0.1",
+  "description": "Provides an Extract Component refactoring task. Takes a selected JSX snippet and extracts it into a new component.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "extract-component:extract"
