@@ -17,7 +17,6 @@ Refactoring task to extract a portion of JSX as a new component.
   although this would introduce complexity and probably new edge cases
 - restore focus to active editor on modal close
 	- this should be working, not sure why it isn't
-- save the new component file immediately?
 - add new import last?
 - Allow for leaving children in place, only extracting wrapping element as component
 - Leave children by default, by UI option, or by separate command?
