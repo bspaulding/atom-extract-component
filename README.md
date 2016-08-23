@@ -6,12 +6,12 @@ Refactoring task to extract a portion of JSX as a new component.
 
 - Look for var refs and transform to props. this is done-ish, 
   currently looks only for MemberExpression names
-  would be _better_ if `<ComponentA src={images.imageSrc}/>` became:
+  would be _better_ if `<Image src={images.imageSrc}/>` became:
   ```javascript
 	  <Component src={images.imageSrc}/>
 
 	  const Component = ({ src }) => (
- 			<ComponentA src={src}/>
+ 			<Image src={src}/>
 	  )
   ```
   although this would introduce complexity and probably new edge cases
